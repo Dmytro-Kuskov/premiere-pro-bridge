@@ -1,0 +1,14 @@
+{
+  "bridge_dir": "A:/premiere_bridge",
+  "watch_folder": "A:/Current Video Projects/B-Rolls/incoming-footage",
+  "allowed_extensions": [".mp4", ".mov", ".mxf", ".avi", ".m4v", ".webm", ".png", ".jpg", ".jpeg", ".wav", ".mp3"],
+  "poll_interval_seconds": 3,
+  "stable_checks": 3,
+  "stable_wait_seconds": 2,
+  "job_defaults": {
+    "mode": "append",
+    "video_track": 0,
+    "audio_track": 0,
+    "target_sequence": "ACTIVE"
+  }
+}
