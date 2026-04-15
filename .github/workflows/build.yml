@@ -25,7 +25,6 @@ jobs:
       - name: Build .app
         run: |
           pyinstaller \
-            --windowed \
             --onedir \
             --name "WatcherApp" \
             watcher.py
